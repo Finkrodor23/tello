@@ -13,7 +13,7 @@ drone.recv()
 my_stream_name = 'Drone-Logs'
 kinesis_client = boto3.client('kinesis', region_name='eu-central-1')
 
-
+#New comment
 
 def put_to_stream(thing_id, property_value, property_timestamp):
     payload = {
